@@ -1,0 +1,28 @@
+# Data settings
+data_path: 'the path fot the  imdb datasets file'
+test_size: 0.1
+val_size: 0.1
+max_length: 256
+
+# Model settings
+bert_model: 'bert-base-uncased'
+n_classes: 2 #since it is a binary classification problem
+dropout_rate: 0.2
+
+# Training set6tings
+batch_size: 32
+num_epochs: 12
+learning_rate: 2e-5
+weight_decay: 0.01
+warmup_steps: 0
+max_grad_norm: 1.0
+early_stopping_threshold: 2 #specify the threshold
+
+# Paths
+model_save_path: 'models/best_model.pth'
+final_model_path: 'models/final_model.pth'
+log_dir: 'logs/'
+
+# Other settings
+seed: 414
+device: 'cuda'  # or 'cpu' if you don't have a GPU
