@@ -31,16 +31,13 @@ text-classification/
 
 2. Create and activate a Conda environment:
    ```bash
-   # Create a new Conda environment named 'bert-classifier'
    conda create --name bert-classifier
 
-   # Activate the environment
    conda activate bert-classifier
    ```
 
 3. Install the required packages:
    ```bash
-   # Install all dependencies listed in requirements.txt
    pip install -r requirements.txt
    ```
 
