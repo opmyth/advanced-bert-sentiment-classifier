@@ -14,7 +14,6 @@ text-classification/
 │   ├── model/
 │   │   └── classifier.py
 │   ├── train.py
-│   └── evaluate.py
 ├── main.py
 ├── config.yaml
 ├── requirements.txt
